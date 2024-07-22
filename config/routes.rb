@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
   root "chats#index"
-  resource :chat_reponses, only: [:show]
+  resource :chat_responses, only: [:show]
 end
