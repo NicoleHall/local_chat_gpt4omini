@@ -1,0 +1,2 @@
+class ChatResponsesController < ApplicationController
+end
